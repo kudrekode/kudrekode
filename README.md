@@ -2,7 +2,7 @@
 
 **Full-stack software engineer specialising in backend, cloud and event-driven systems.**
 
-I build products end to end, with a commercial focus on backend, cloud and serverless systems. Outside work, I explore agent infrastructure, game engines, graphics tooling and native applications, with a particular interest in AI development workflows and long-term agent memory.
+I build products end to end, with a commercial focus on backend, cloud and serverless systems. Outside work, I explore agent infrastructure, game engines, graphics tooling and audio software, with a particular interest in AI development workflows and long-term agent memory.
 
 [LinkedIn](https://www.linkedin.com/in/james-crick-675a2516a/)
 
@@ -41,6 +41,12 @@ Browser-based 2D/3D adventure-game editor and runtime built with React, TypeScri
   <img src="assets/game-engine/in-game.png" alt="Adventure Game Builder runtime" width="49%" />
 </p>
 
+### [Frostbite Audio Plugin](https://github.com/kudrekode/frostbite-audio-plugin)
+
+A Windows x64 VST3 effect built with C++20 and JUCE for live and held granular textures, ping-pong echo, nonlinear damage and stereo ambience. Its real-time DSP avoids callback allocation, locks and I/O; V2 preserves existing presets and state while adding new factory sounds, with automated DSP, UI and VST3-host verification.
+
+<img src="assets/frostbite/editor-v2.png" alt="Frostbite V2 audio plugin editor" width="100%" />
+
 ### [Companies House Enrichment Pipeline](https://github.com/kudrekode/ComapniesHouse)
 
 An incremental Companies House ingestion and enrichment system designed for operational reliability: durable state, watermarks, replay-safe writes, run locking, cached officer data and a Postgres-backed enrichment worklist.
@@ -65,10 +71,6 @@ flowchart TD
 A deterministic strategy-game engine with seeded randomness, hidden-information handling and an information-set Monte Carlo AI opponent. Built around reproducibility, worker isolation and a well-tested rules engine.
 
 <img src="assets/quacks-game/gameplay_example.png" alt="Cauldron and Chance gameplay" width="100%" />
-
-### [Hand Grabber](https://github.com/kudrekode/hand-grabber-game)
-
-Native iOS game built with Swift, SwiftUI and SpriteKit, focused on responsive interaction, animation, progression and game feel.
 
 ## Elsewhere
 
